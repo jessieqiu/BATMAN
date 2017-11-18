@@ -43,17 +43,18 @@ public class KeyPadPressTest
     {
         // Press 1
 
+    	
         // Assertion (Replace with appropriate test)
-        assertTrue( false );
+    	assertEquals(1,kp.getKey(1,1));
     }
 
    @Test
     public void testTwo()
     {
         // Press 2
-
+	   
         // Assertion (Replace with appropriate test)
-        assertTrue( false );
+	   assertEquals(2,kp.getKey(2,1));
     }
 
    @Test
@@ -62,7 +63,7 @@ public class KeyPadPressTest
         // Press 3
 
         // Assertion (Replace with appropriate test)
-        assertTrue( false );
+	   assertEquals(3,kp.getKey(3,1));
     }
 
    @Test
@@ -71,7 +72,7 @@ public class KeyPadPressTest
         // Press 4
 
         // Assertion (Replace with appropriate test)
-        assertTrue( false );
+	   assertEquals(4,kp.getKey(1,2));
     }
 
    @Test
@@ -80,7 +81,7 @@ public class KeyPadPressTest
         // Press 5
 
         // Assertion (Replace with appropriate test)
-        assertTrue( false );
+	   assertEquals(5,kp.getKey(2,2));
     }
 
    @Test
@@ -89,7 +90,7 @@ public class KeyPadPressTest
         // Press 6
 
         // Assertion (Replace with appropriate test)
-        assertTrue( false );
+	   assertEquals(6,kp.getKey(3,2));
     }
 
    @Test
@@ -98,7 +99,7 @@ public class KeyPadPressTest
         // Press 7
 
         // Assertion (Replace with appropriate test)
-        assertTrue( false );
+	   assertEquals(7,kp.getKey(1,3));
     }
 
    @Test
@@ -107,7 +108,7 @@ public class KeyPadPressTest
         // Press 8
 
         // Assertion (Replace with appropriate test)
-        assertTrue( false );
+	   assertEquals(8,kp.getKey(2,3));
     }
 
    @Test
@@ -116,7 +117,7 @@ public class KeyPadPressTest
         // Press 9
 
         // Assertion (Replace with appropriate test)
-        assertTrue( false );
+	   assertEquals(9,kp.getKey(4,3));
     }
 
    @Test
