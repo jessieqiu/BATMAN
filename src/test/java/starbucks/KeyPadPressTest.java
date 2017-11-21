@@ -48,28 +48,27 @@ public class KeyPadPressTest
     public void testOne()
     {
         // Press 1
-
-    	
+	kp.touch(1, 5);          	
         // Assertion (Replace with appropriate test)
-    	assertEquals("1",kp.getKey(1,1));
+    	assertEquals("1",kp.lastKey());
     }
 
    @Test
     public void testTwo()
     {
         // Press 2
-	   
+	kp.touch(2, 5); 
         // Assertion (Replace with appropriate test)
-	   assertEquals("2",kp.getKey(2,1));
+	   assertEquals("2",kp.lastKey());
     }
 
    @Test
     public void testThree()
     {
         // Press 3
-
+	 kp.touch(3, 5);
         // Assertion (Replace with appropriate test)
-	   assertEquals("3",kp.getKey(3,1));
+	   assertEquals("3",kp.lastKey());
     }
 
    @Test
