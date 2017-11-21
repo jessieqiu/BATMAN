@@ -75,81 +75,81 @@ public class KeyPadPressTest
     public void testFour()
     {
         // Press 4
-
+  	kp.touch(1, 6);
         // Assertion (Replace with appropriate test)
-	   assertEquals("4",kp.getKey(1,2));
+	   assertEquals("4",kp.lastKey());
     }
 
    @Test
     public void testFive()
     {
         // Press 5
-
+	kp.touch(2, 6);
         // Assertion (Replace with appropriate test)
-	   assertEquals("5",kp.getKey(2,2));
+	   assertEquals("5",kp.lastKey());
     }
 
    @Test
     public void testSix()
     {
         // Press 6
-
+	kp.touch(3, 6);
         // Assertion (Replace with appropriate test)
-	   assertEquals("6",kp.getKey(3,2));
+	   assertEquals("6",kp.lastKey());
     }
 
    @Test
     public void testSeven()
     {
         // Press 7
-
+	kp.touch(1, 7);
         // Assertion (Replace with appropriate test)
-	   assertEquals("7",kp.getKey(1,3));
+	   assertEquals("7",kp.lastKey());
     }
 
    @Test
     public void testEight()
     {
         // Press 8
-
+	kp.touch(2, 7);
         // Assertion (Replace with appropriate test)
-	   assertEquals("8",kp.getKey(2,3));
+	   assertEquals("8",kp.lastKey());
     }
 
    @Test
     public void testNine()
     {
         // Press 9
-
+	kp.touch(3, 7);
         // Assertion (Replace with appropriate test)
-	   assertEquals("9",kp.getKey(4,3));
+	   assertEquals("9",kp.lastKey());
     }
 
    @Test
     public void testZero()
     {
         // Press 0
-
+	 kp.touch(2, 8);
         // Assertion (Replace with appropriate test)
-	   assertEquals("0",kp.getKey(2,4));
+	   assertEquals("0",kp.lastKey());
     }
 
    @Test
     public void testBackspace()
     {
         // Press Backspace
-
+	 kp.touch(3, 8);
         // Assertion (Replace with appropriate test)
-	   assertEquals("X",kp.getKey(3,4));
+	   assertEquals("X",kp.lastKey());
     }
 
    @Test
     public void testNoKey()
     {
         // Press Empty Key
-
+	kp.touch(1, 8);
         // Assertion (Replace with appropriate test)
-	   assertEquals(" ",kp.getKey(1,4));
+	   assertEquals(" ",kp.lastKey());
     }
 
 
